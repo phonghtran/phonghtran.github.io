@@ -1,0 +1,18 @@
+.containerHomepage__wrapper {
+  max-width: 64rem;
+}
+
+.containerHomepage__wrapper h3 {
+  margin-top: calc(6 * var(--universal-margin));
+}
+
+.containerHomepage__logo {
+  height: 3rem;
+  margin: 0 2rem 1rem 0;
+}
+
+.containerHomepage__logoWrapper {
+  margin-bottom: calc(6 * var(--universal-margin));
+  margin-top: calc(6 * var(--universal-margin));
+  text-align: center;
+}

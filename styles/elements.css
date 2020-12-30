@@ -1,0 +1,33 @@
+body {
+  margin: 2rem 0 16rem;
+}
+html,
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Juana, serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: calc(
+    1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) *
+      var(--heading-ratio) * var(--heading-ratio)
+  );
+}
+
+p {
+  font-weight: normal;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 0;
+}
