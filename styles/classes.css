@@ -1,3 +1,6 @@
+.--bold {
+  font-weight: bold;
+}
 .containerHomepage__wrapper {
   max-width: 64rem;
 }
@@ -15,4 +18,8 @@
   margin-bottom: calc(6 * var(--universal-margin));
   margin-top: calc(6 * var(--universal-margin));
   text-align: center;
+}
+
+.containerLinks__wrapper {
+  margin: var(--universal-margin);
 }
