@@ -1,6 +1,7 @@
 body {
   margin: 2rem 0 16rem;
 }
+
 html,
 * {
   font-family: "Open Sans", sans-serif;
@@ -17,16 +18,14 @@ h6 {
 }
 
 h1 {
-  font-size: calc(
-    1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) *
-      var(--heading-ratio) * var(--heading-ratio)
-  );
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
 }
 
 p {
   font-weight: normal;
 }
 
+ol,
 ul {
   list-style-position: outside;
   padding-left: 0;
