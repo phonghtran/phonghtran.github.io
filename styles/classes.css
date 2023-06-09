@@ -1,12 +1,45 @@
 .--bold {
   font-weight: bold;
 }
+
 .containerHomepage__wrapper {
   max-width: 64rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.containerHomepage__wrapper .headlineCenter {
+
+  text-align: center;
+
+}
+
+
+.containerHomepage__wrapper h2.headlineCenter {
+  /* margin-top: calc(12 * var(--universal-margin)); */
+
+}
+
 .containerHomepage__wrapper h3 {
   margin-top: calc(6 * var(--universal-margin));
+
+}
+
+.containerHomepage__wrapper h4 {
+  margin-top: calc(6 * var(--universal-margin));
+}
+
+hr {
+  background: var(--fore-color);
+  margin: calc(12 * var(--universal-margin)) 0;
 }
 
 .containerHomepage__logo {
