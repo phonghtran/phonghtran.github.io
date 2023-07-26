@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>phonghtran LLC</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-green: #2E8F50;
+            --green-forest: #2A3922;
+            --green-light: #84A561;
+            --yellow: #EFF288;
+            --orange-rust: #E06C37;
+            --grayscale-100p: #2D302C;
+            --grayscale-60p: #4A4E47;
+            --grayscale-50p: #97A092;
+            --grayscale-40p: #BDCAB6;
+            --grayscale-20p: #E5F4DD;
+            --grayscale-10p: #F9FFF5;
+        }
+
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Juana, serif;
+            font-weight: 700;
+        }
+
+        h1.masthead {
+            display: inline;
+            font-size: 3rem;
+
+        }
+
+        a {
+            color: var(--orange-rust);
+            text-decoration: none;
+        }
+
+        body {
+            background-color: var(--grayscale-20p);
+
+            font-family: 'Kantumruy Pro', sans-serif;
+
+            padding-bottom: 4rem;
+        }
+
+        .onionParallax {
+            width: 100%;
+        }
+
+        #openerSketch {
+            background-color: var(--grayscale-20p);
+            background-image: url('assets/v9_images/openerSketch.jpg');
+            background-size: cover;
+
+            position: sticky;
+            top: 0;
+
+            width: 100%;
+            ;
+            z-index: 0;
+        }
+
+        #openerWireframe {
+            background-color: var(--green-forest);
+
+            background-image: url('assets/v9_images/openerWireframe.jpg');
+            background-size: cover;
+
+            z-index: 10;
+        }
+
+
+        #timeline {
+            background-color: var(--grayscale-10p);
+            display: inline-block;
+            position: relative;
+
+            width: 20%;
+
+            z-index: 30;
+        }
+
+        #containerMain {
+            background-color: var(--grayscale-20p);
+            display: inline-block;
+            margin-left: 20%;
+            position: relative;
+            width: 80%;
+
+            z-index: 30;
+        }
+
+        #containerMasthead {
+            padding: 16rem 4rem;
+        }
+
+
+        div.containerLinks_wrapper {
+            display: block;
+        }
+
+
+        .projectWrapper {
+
+            display: inline-block;
+            margin-bottom: 4rem;
+            position: relative;
+            width: 100%;
+
+            z-index: 30;
+        }
+
+        .project {
+            background-color: var(--green-forest);
+            height: 600px;
+        }
+
+        @media (min-width: 320px) {}
+
+
+
+        @media (min-width: 768px) {
+            div.containerProjects {
+                display: flex;
+            }
+
+            .projectWrapper {
+                align-items: stretch;
+            }
+
+            .projectWrapper .project {
+
+
+                margin: 0 2rem;
+            }
+
+            .projectWrapper.full .project {
+                margin: 0;
+            }
+
+
+        }
+
+
+
+        @media (min-width: 992px) {
+            div.containerLinks_wrapper {
+                display: inline;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- -------------------------------------------------------
+    ------------------------------------------------------------
+    ------------------------------------------------------------
+    onion 
+    ------------------------------------------------------------
+    ------------------------------------------------------------
+    ------------------------------------------------------- -->
+    <div id="openerSketch" class="onionParallax">
+        &nbsp;
+    </div><!-- openerSketch  -->
+
+    <!-- spacer for when opener switches to sticky -->
+    <div class="onionParallax">&nbsp;</div>
+
+    <div id="openerWireframe" class="onionParallax">
+        &nbsp;
+    </div>
+    <!-- openerWireframe -->
+
+    <!-- spacer for when opener switches to sticky -->
+    <!-- <div class="onionParallax">&nbsp;</div> -->
+
+
+    <div id="timeline">
+        <ul>
+            <li> Today </li>
+            <li> 2023 </li>
+            <li> 2022 </li>
+            <li> 2021 </li>
+            <li> 2020 </li>
+            <li> 2019 </li>
+            <li> 2018 </li>
+            <li> 2015 </li>
+            <li> 2013 </li>
+            <li> 2012 </li>
+            <li> 2010 </li>
+            <li> 2008 </li>
+            <li> 2004 </li>
+            <li> 2003 </li>
+            <li> 2000 </li>
+            <li> 1999 </li>
+            <li> 1998 </li>
+            <li> 1994 </li>
+            <li> 1990 </li>
+            <li> 1986 </li>
+        </ul>
+    </div>
+
+    <!-- -------------------------------------------------------
+                ------------------------------------------------------------
+                ------------------------------------------------------------
+                Main content 
+                ------------------------------------------------------------
+                ------------------------------------------------------------
+                ------------------------------------------------------- -->
+
+    <div id="containerMain">
+        <div id="containerMasthead">
+            <h1 class="masthead">phonghtran</h1>
+            <div class="containerLinks_wrapper">
+                <a href="https://www.dropbox.com/s/spg5vtdhh66bno9/phonghtran_resume.pdf?dl=0" target="_blank">Resume
+                    CV</a>
+                • <a href="https://www.linkedin.com/in/phonghtran/" target="_blank">LinkedIn</a>
+                •
+                <a href="https://www.instagram.com/phonghtran/" target="_blank">Instagram</a>
+                •
+
+                <a href="https://github.com/phonghtran" target="_blank">Github</a> •
+
+
+                612-643-1555 • phong@phonghtran.com
+
+            </div>
+            <!--containerLinks__wrapper-->
+        </div>
+        <!-- containerMasthead -->
+
+        <div id="containerProjects">
+            <div class="projectWrapper full">
+                <div class="project">
+                    project
+                </div>
+            </div>
+            <!-- project -->
+
+            <div class="projectWrapper">
+                <div class="project">
+                    project
+                </div>
+            </div>
+            <!-- project -->
+
+        </div>
+        <!-- containerProjects -->
+    </div>
+    <!-- containerMain -->
+
+
+
+
+
+    <!-- -------------------------------------------------------
+        ------------------------------------------------------------
+        ------------------------------------------------------------
+        Script 
+        ------------------------------------------------------------
+        ------------------------------------------------------------
+        ------------------------------------------------------- -->
+    <script>
+        var windowHeight;
+
+        var openerWireframe, onionHifi, timeline;
+
+        onload = (event) => {
+            windowHeight = window.innerHeight;
+
+            openerWireframe = document.getElementById('openerWireframe');
+
+            timeline = document.getElementById('timeline');
+
+            var layers_onionParallax = document.getElementsByClassName('onionParallax')
+
+            for (var i = 0; i < layers_onionParallax.length; i++) {
+                var layer = layers_onionParallax[i];
+                // Do something with each element
+                layer.style.height = windowHeight + 'px'
+            }
+
+            timeline.style.height = windowHeight + 'px'
+
+        };
+
+        // Define the scroll event handler function
+        function handleScroll() {
+            windowHeight = window.innerHeight;
+
+            var scrollX = window.scrollX || window.pageXOffset;
+            var scrollY = window.scrollY || window.pageYOffset;
+
+            console.log(scrollY, ' ? ', windowHeight);
+
+            if (scrollY > windowHeight) {
+                openerWireframe.style.position = "sticky";
+                openerWireframe.style.top = "0";
+            } else {
+                // openerWireframe.style.position = "relative";
+                // openerWireframe.style.top = "auto";
+            }
+
+            if (scrollY > windowHeight * 2) {
+                timeline.style.position = "sticky";
+                timeline.style.top = "0";
+            } else {
+                timeline.style.position = "relative";
+                timeline.style.top = "auto";
+            }
+
+
+
+
+
+        }
+
+        // Attach the scroll event listener
+        window.addEventListener("scroll", handleScroll);
+    </script>
+</body>
+
+
+</html>
